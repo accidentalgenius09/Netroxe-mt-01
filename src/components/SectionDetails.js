@@ -119,7 +119,7 @@ function SectionDetails() {
                                     <td className="border-r border-gray-700">
                                         {editId === item.id ? (
                                             <input
-                                                type="numnber"
+                                                type="number"
                                                 className="bg-gray-700 py-2 px-1 rounded text-white w-full"
                                                 value={item.actual}
                                                 onChange={(e) => {
